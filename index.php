@@ -7,12 +7,12 @@
         <body>
         <div class="container">
             <h1 class="text-center">Input Barang</h1>
-            <h2 class="text-center">@Esterlita</h2>
+            <h2 class="text-center">@Christin</h2>
             
             <!-- Awal Card Form -->
             <div class="card mt-4">
                 <div class="card-header bg-primary text-white">
-                    Form Barang Masuk
+                    Form Barang 
                 </div>
                 <div class="card-body">
                      <form method="post" action="">
@@ -72,6 +72,47 @@
 </div>
 </div>
 <!-- Akhir Card Form -->
+<!-- Awal Card Tabel -->
+<div class="card mt-4">
+    <div class="card-header bg-success text-white">
+        Data Barang
+</div>
+<div class="card-body">
+  <table class="table table-bordered table-striped">
+  <tr>
+      <th>No</th>
+      <th>Kode barang</th>
+      <th>Nama barang</th>
+      <th>Deskripsi barang</th>
+      <th>Merek</th>
+      <th>Stok</th>
+      <th>Satuan barang</th>
+      <th>Tanggal kadaluarsa</th>
+      <th>Jumlah barang</th>
+      <th>Harga</th>
+      <th>Tokoh</th>
+      <th>Supplier</Th>
+      <th>Karyawan</th>
+      <th>Aksi</th>
+    </tr> 
+    <tr>
+        <td>1</td>
+        <td>123</td>
+        <td>Sabun</td>
+        <td>menghilangkan kuman</td>
+        <td>Detol</td>
+        <td>8</td>
+        <td>Buah</td>
+        <td>12 januari 2023></td>
+        <td>8</td>
+        <td>5000</td>
+        <td>mitra</td>
+        <td>Susila</td>
+        <td>Pingkan</td>
+        <td>
+            <a href= "#" class="btn btn-warning"> Edit </a>
+            <a href = "#" class="btn btn-danger"> Hapus </a>
+    </tr>
 
 </div>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
